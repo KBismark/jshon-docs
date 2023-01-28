@@ -1,5 +1,5 @@
 {
-  "name": "jshon-app",
+  "name": "jshon",
   "version": "1.0.0",
   "description": "",
   "main": "./jshon-compiler/index.js",
