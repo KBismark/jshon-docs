@@ -74,7 +74,7 @@ module.exports = function(){
         }
 
         return (
-            {t:'div',a:{"key":"container","class":"glow-on-hover jsh-W jsh-T jsh-c jsh-2 jsh-e jsh-f"},c:[function(args){return (typeof(this.title)=="string"?render(this.state.components.header(),this.title):null)},{t:'div',a:{},c:[{t:'div',a:{"key":"code_container"},c:[]}]}]}
+            {t:'div',a:{"key":"container","class":"glow-on-hover jsh-a jsh-b jsh-c jsh-d jsh-e jsh-f"},c:[function(args){return (typeof(this.title)=="string"?render(this.state.components.header(),this.title):null)},{t:'div',a:{},c:[{t:'div',a:{"key":"code_container"},c:[]}]}]}
         )
     }
 
@@ -89,7 +89,7 @@ module.exports = function(){
     function CodeHeader(){
 
         return (
-            {t:'div',a:{"class":" jsh-k jsh-U jsh-m jsh-g jsh-n"},c:[{t:'div',a:{},c:[{t:'div',a:{"class":" jsh-g"},c:[{t:'span',a:{"class":" jsh-o jsh-p jsh-q jsh-r"},c:[]},{t:'span',a:{"class":" jsh-s jsh-p jsh-q jsh-r"},c:[]},{t:'span',a:{"class":" jsh-t jsh-p jsh-q jsh-r"},c:[]}]}]},{t:'div',a:{},c:[{t:'i',a:{"class":" jsh-u jsh-v"},c:[function(args){return (args)}]}]}]}
+            {t:'div',a:{"class":" jsh-k jsh-l jsh-m jsh-g jsh-n"},c:[{t:'div',a:{},c:[{t:'div',a:{"class":" jsh-g"},c:[{t:'span',a:{"class":" jsh-o jsh-p jsh-q jsh-r"},c:[]},{t:'span',a:{"class":" jsh-s jsh-p jsh-q jsh-r"},c:[]},{t:'span',a:{"class":" jsh-t jsh-p jsh-q jsh-r"},c:[]}]}]},{t:'div',a:{},c:[{t:'i',a:{"class":" jsh-u jsh-v"},c:[function(args){return (args)}]}]}]}
         )
     }
     CodeHeader = createComponent(CodeHeader);

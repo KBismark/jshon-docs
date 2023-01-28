@@ -74,7 +74,7 @@ module.exports = function(JSHON){
         }
 
         return (
-            function htmlString(args){return (`<div key="container"${JSHON.getDynamicAttributes(this,"container","glow-on-hover jsh-W jsh-T jsh-c jsh-2 jsh-e jsh-f")}>${JSHON.getRightValue(typeof(this.title)=="string"?render(this.state.components.header(),this.title):null)}<div><div key="code_container"${JSHON.getDynamicAttributes(this,"code_container","")}></div></div></div>`)}
+            function htmlString(args){return (`<div key="container"${JSHON.getDynamicAttributes(this,"container","glow-on-hover jsh-a jsh-b jsh-c jsh-d jsh-e jsh-f")}>${JSHON.getRightValue(typeof(this.title)=="string"?render(this.state.components.header(),this.title):null)}<div><div key="code_container"${JSHON.getDynamicAttributes(this,"code_container","")}></div></div></div>`)}
         )
     }
 
@@ -89,7 +89,7 @@ module.exports = function(JSHON){
     function CodeHeader(){
 
         return (
-            function htmlString(args){return (`<div class=" jsh-k jsh-U jsh-m jsh-g jsh-n"><div><div class=" jsh-g"><span class=" jsh-o jsh-p jsh-q jsh-r"></span><span class=" jsh-s jsh-p jsh-q jsh-r"></span><span class=" jsh-t jsh-p jsh-q jsh-r"></span></div></div><div><i class=" jsh-u jsh-v">${JSHON.getRightValue(args)}</i></div></div>`)}
+            function htmlString(args){return (`<div class=" jsh-k jsh-l jsh-m jsh-g jsh-n"><div><div class=" jsh-g"><span class=" jsh-o jsh-p jsh-q jsh-r"></span><span class=" jsh-s jsh-p jsh-q jsh-r"></span><span class=" jsh-t jsh-p jsh-q jsh-r"></span></div></div><div><i class=" jsh-u jsh-v">${JSHON.getRightValue(args)}</i></div></div>`)}
         )
     }
     CodeHeader = createComponent(CodeHeader);
