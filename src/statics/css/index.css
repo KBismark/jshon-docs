@@ -1,0 +1,170 @@
+
+.color{
+    color: rgb(5, 170, 69);
+}
+.white-color{
+    color: #fff;
+}
+.green-bg{
+    background-color: rgb(5, 170, 69);
+}
+.white-bg{
+    background-color: #fff;
+}
+.btn{
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-weight: 500;
+    font-size: 16.5px;
+    cursor: pointer;
+}
+.green-btn{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgb(5, 170, 69);
+}
+.white-btn{
+    border: 1px solid #100361;
+    color: #100361;
+    background-color: #e0ffff;
+}
+.white-btn:hover{
+    background-color: #fff;
+}
+.link{
+    text-decoration: none;
+}
+
+#top-nav-2{
+    display: none;
+}
+#top-nav-1{
+    display: block;
+}
+#menu{
+    display: none;
+}
+#top-nav-1 a,#top-nav-2 a{
+    margin-right: 20px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.white-border-on-hover{
+    border: 2px solid transparent;
+}
+.white-border-on-hover:hover{
+    border: 2px solid #fff;
+}
+.white-border{
+    border: 2px solid #fff;
+}
+#jshon-hello0{
+    margin-left: -30px;
+    margin-top: 100px;
+}
+#jshon{
+    padding: 20px 10px;
+}
+article p{
+    padding: 20px 10px;
+    line-height: 1.3em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    text-align: justify;
+}
+.feature-art{
+    border-radius: 16px;
+    background-color: #e0ffff;
+    color: #011410;
+    border: 2px solid rgb(56, 56, 56);
+}
+.feature-art h3{
+    font-size: 2em;
+    border-radius: 16px 16px 0px 0px;
+    padding: 0px 10px;
+    background-color: #011410;
+    color: #fff;
+   text-align: center;
+    margin: 0px;
+}
+.wrapper{
+    display: flex;flex-wrap: wrap;
+    justify-content: space-around;
+}
+#frontage h3{
+    font-size: 4rem;
+}
+@media screen and (max-width:1000px) {
+    #top-nav-2{
+        display: block;
+    }
+    #top-nav-1{
+        display: none;
+    }
+}
+@media screen and (max-width:920px) {
+    #frontage h3{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:780px) {
+    #jshon-hello-1{
+        margin-bottom: 25px;
+    }
+    #jshon-hello-2{
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width:730px) {
+    #top-nav-2{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+}
+@media screen and (max-width:615px) {
+    #frontage h3{
+        font-size: 2.5rem;
+    }
+    #frontage h2{
+        font-size: 1.1em;
+    }
+}
+
+
+code{
+    font-size: 17px;
+}
+code div{
+    margin-lef: 15px;
+    margin-bottom: 5px;
+}
+.code-keyword-1{
+    color: rgb(218, 69, 238);
+}
+.code-keyword-2{
+    color: rgb(50, 113, 230);
+}
+.code-propname{
+    color: rgb(98, 233, 238);
+}
+.code-funcname{
+    color: rgb(226, 217, 138);
+}
+.code-classname{
+    color: rgb(18, 197, 128);
+}
+.code-number{
+    color: rgb(85, 134, 110);
+}
+.code-special-char{
+    color: rgb(216, 219, 219);
+}
+.code-special-char-2{
+    color: rgb(56, 56, 56);
+}
+.code-comment{
+    color: rgb(30, 124, 54);
+}
